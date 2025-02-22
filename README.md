@@ -29,7 +29,7 @@ Run the script:
 python main.py
 ```
 ### Results
-The script outputs the model's AUC performance, a cell-cell communication matrix, a cell type communication matrix, and results from clustering, UMAP visualization, and PAGA analysis, providing a comprehensive view of cell interactions and relationships.
+The final outputs the model's AUC performance, a cell-cell communication matrix, a cell type communication matrix, and results from clustering, UMAP visualization, and PAGA analysis, providing a comprehensive view of cell interactions and relationships.
 
 
 
