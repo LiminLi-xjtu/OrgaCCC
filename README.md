@@ -8,7 +8,8 @@ OrgaCCC depends on the following packages: matplotlib, numpy, pandas, scanpy, sc
 ```
 pip install --requirement requirements.txt
 ```
-### Input Data
+### Usage
+#### Input Data
 The input data should be an `AnnData` object (`adata`) with the following structure:
 - **Gene Expression Matrix**: Cells in rows and genes in columns.
 - **`adata.obs['celltype']`**: A column containing cell type annotations for each cell.
@@ -19,6 +20,9 @@ Example:
 adata = sc.read_h5ad(r"data/cortex.h5ad")
 ```
 We provide a preprocessing module to transform the spatial coordinates of single-cell transcriptomics data into an adjacency matrix.
+
+#### Construct CCC networks
+
 
 
 
