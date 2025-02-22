@@ -1,5 +1,7 @@
 # OrgaCCC
- Orthogonal graph autoencoders for constructing cell-cell communication networks on spatial transcriptomics data
+ Orthogonal graph autoencoders for constructing cell-cell communication networks on spatial transcriptomics data.
+ 
+OrgaCCC reconstructs **cell-cell and cell-type communication networks** using the orthogonal graph autoencoders at both the cellular and gene levels. Through **clustering analysis**, it refines cell classification and uncovers developmental trajectories, as well as spatial and functional heterogeneity of cells. Additionally, OrgaCCC employs **gene sensitivity analysis** to identify key genes involved in cell communication, offering valuable insights into critical molecular interactions.
 
 ## Getting Started
 
@@ -27,7 +29,7 @@ Run the script:
 python main.py
 ```
 ### Results
-The script outputs the model's AUC performance, a cell-cell communication matrix, a cell type communication matrix, and results from spectral clustering, UMAP visualization, and PAGA analysis, providing a comprehensive view of cell interactions and relationships.
+The script outputs the model's AUC performance, a cell-cell communication matrix, a cell type communication matrix, and results from clustering, UMAP visualization, and PAGA analysis, providing a comprehensive view of cell interactions and relationships.
 
 
 
