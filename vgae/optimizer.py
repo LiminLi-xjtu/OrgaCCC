@@ -10,7 +10,7 @@ FLAGS = flags.FLAGS
 
         
 class Orga_Optimizer_all(object):
-    """ Optimizer for VGAE+VAE_X"""
+   
     def __init__(self, preds_gene, labels_gene, model_gene, num_nodes_gene, pos_weight_gene, norm_gene,
                  preds_cell, labels_cell, model_cell, num_nodes_cell, pos_weight_cell, norm_cell,
                  exp):
