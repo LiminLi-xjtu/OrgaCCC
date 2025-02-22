@@ -41,8 +41,6 @@ def load_geneadj(adata):
     
 def load_celladj(adata, distance):
     dis_mat = distance_matrix(adata.obsm["spatial"], adata.obsm["spatial"])
-    #距离200以内的细胞建立边
-    ######距离还可以试着改改
     dis_mat[dis_mat <= distance] = 1
     dis_mat[dis_mat > distance] = 0
     np.fill_diagonal(dis_mat, 0)
