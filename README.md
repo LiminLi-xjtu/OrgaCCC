@@ -7,6 +7,9 @@ OrgaCCC reconstructs **cell-cell and cell-type communication networks** using th
 
 ## Getting Started
 
+### System Requirements
+OrgaCCC is implemented in **python 3.11.3**.
+
 ### Dependencies and requirements
 OrgaCCC depends on the following packages: matplotlib, numpy, pandas, scanpy, scipy, tensorflow. See dependency versions in `requirements.txt`.Installation of the dependencies may take several minutes.
 ```
