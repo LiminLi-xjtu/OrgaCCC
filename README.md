@@ -3,7 +3,7 @@
 ![overview](https://github.com/user-attachments/assets/1bdea92e-25a5-4406-a222-f8e1639e3c44)
 
  
-OrgaCCC reconstructs **cell-cell and cell-type communication networks** using the orthogonal graph autoencoders at both the cellular and gene levels. Through **clustering analysis**, it refines cell classification and uncovers developmental trajectories, as well as spatial and functional heterogeneity of cells. Additionally, OrgaCCC employs **gene sensitivity analysis** to identify key genes involved in cell communication, offering valuable insights into critical molecular interactions.
+OrgaCCC reconstructs **cell-cell and cell-type communication networks** using the orthogonal graph autoencoders at both the cell/spot and gene levels. Through **clustering analysis**, it refines cell classification and uncovers developmental trajectories, as well as spatial and functional heterogeneity of cells. Additionally, OrgaCCC employs **gene sensitivity analysis** to identify key genes involved in cell communication, offering valuable insights into critical molecular interactions.
 
 ## Getting Started
 
