@@ -1,6 +1,5 @@
 # OrgaCCC
  Orthogonal graph autoencoders for constructing cell-cell communication networks on spatial transcriptomics data.
- ![overview](https://github.com/user-attachments/assets/d21af1fc-b7a2-4314-bca3-30f1186c5b61)
 ![overview](https://github.com/user-attachments/assets/1bdea92e-25a5-4406-a222-f8e1639e3c44)
 
  
